@@ -80,7 +80,7 @@ if __name__ == "__main__":
     attack_duration = int(sys.argv[4])
     proxies = get_proxies(proxy_list_file)
     flooders = int(sys.argv[5])
-    print(f"[CookieBypass] Made By nix (https://t.me/iotwarz)")
+    print(f"[CookieBypass] Made By nix (https://t.me/iotwarz) | https://github.com/iotwar/cookie-bypass")
     print("[CookieBypass] HTTPS Cookie Bypass Flood With Random Browsers. (Chrome, Safari, Edge)")
     print(f"[CookieBypass] Starting {str(num_threads)} grabbers at the rate of {str(flooders)} Per Grabbed Cookie, Seed: {str(seed)}")
     for i in range(num_threads):
